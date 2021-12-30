@@ -1,0 +1,19 @@
+144.22.58.188 -> direcion publica
+
+1) chmod 400 ssh-key-2021-10-24.key
+ 2) ssh -i ssh-key-2021-10-24.key opc@144.22.58.188
+
+para borrar un archivo o directorio : rm -r target/ -> directorio con archivos
+					rm -> archivo
+
+Crear el target del backend : mvn clean package -DskipTests
+refrescar firewall dentro de target: sudo firewall-cmd --reload
+
+cargar: java -jar <nombre_archivo>
+cargar para siempre: sudo java -jar -Dspring.profiles.active=prod <nombre_archivo> &
+detener procesos: sudo pkill java dentro de target
+
+http://144.22.58.188:8080/
+
+servidor apache 
+/var/www/
