@@ -1,0 +1,12 @@
+com\MiaStore\Backend\Repository\CarouselRepository.class
+com\MiaStore\Backend\Model\User.class
+com\MiaStore\Backend\Service\UserService.class
+com\MiaStore\Backend\controller\UserController.class
+com\MiaStore\Backend\BackendMiaTecnoStoreApplication.class
+com\MiaStore\Backend\CrudInterface\UserCrudRepository.class
+com\MiaStore\Backend\Repository\UserRepository.class
+com\MiaStore\Backend\CrudInterface\CarouselCrudRepository.class
+com\MiaStore\Backend\BCrypt\BCrypt.class
+com\MiaStore\Backend\controller\CarouselController.class
+com\MiaStore\Backend\Service\CarouselService.class
+com\MiaStore\Backend\Model\Carousel.class
